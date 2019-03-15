@@ -20,8 +20,8 @@ in pkgs.stdenv.mkDerivation rec {
   src =
     if pkgs.stdenv.isDarwin
       then pkgs.fetchurl
-        { url = "https://github.com/purescript/purescript/releases/download/v0.12.2/macos.tar.gz";
-          sha256 =  "1bll735777098anx30rgw1yyk8mjxyj729laimbdzkp64ckzzsiv";
+        { url = "https://github.com/purerl/purescript/releases/download/v0.12.3-erl2/macos.tar.gz";
+          sha256 =  "1clzwjdprd3q8l6b035bq89llabnq1h4qpn9mdgyn7fbpnzwv59f";
         }
       else pkgs.fetchurl
         { url = "https://github.com/purescript/purescript/releases/download/v0.12.2/linux64.tar.gz";
