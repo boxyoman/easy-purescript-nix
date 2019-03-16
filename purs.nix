@@ -24,8 +24,8 @@ in pkgs.stdenv.mkDerivation rec {
           sha256 =  "1clzwjdprd3q8l6b035bq89llabnq1h4qpn9mdgyn7fbpnzwv59f";
         }
       else pkgs.fetchurl
-        { url = "https://github.com/purescript/purescript/releases/download/v0.12.2/linux64.tar.gz";
-          sha256 =  "0wzsl3yqz9gmsi77a7m73y5g8g8k7hnmd3i2f0gf2k8wx32ak43a";
+        { url = "https://github.com/purerl/purescript/releases/download/v0.12.3-erl2/linux64.tar.gz";
+          sha256 =  "08k9irlm3l8sx9mq9a7vmrvmqjpnk5yypjn1cz2wccsv7486bhl8";
         };
 
 
