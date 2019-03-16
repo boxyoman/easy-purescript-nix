@@ -31,8 +31,6 @@ in
       pkgs.gmp
       pkgs.zlib
       pkgs.ncurses5
-			pkgs.gcc
-
     ];
     libPath = pkgs.lib.makeLibraryPath buildInputs;
     dontStrip = true;
